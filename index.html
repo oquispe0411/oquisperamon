@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>Juego de encripcion</title>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes2/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="Seccion-principal">
+            <div class="contenidotextual">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatextual"></textarea>
+
+            </div>
+            <div class="Avertencia">
+                <img src="imagenes2/bi_exclamation-circle-fill.svg"alt="avertencia">
+                <p>Se permite solo letras minusculas y sin acentos</p>
+
+            </div>
+            <div class="contenido-botones">
+                <input type="button" class="btn-encriptar"  value="Encriptar" id="button" >
+                <input type="button" class="btn-decencriptar" value="Decencriptar" id="button">   
+            </div>
+            
+        </section>
+
+        <section class="Seccion-principal2">
+            <div class="contenidomuneco">
+                <img src="imagenes2/Muñeco.svg" alt="muneco">
+            <div class="contenido-parrafo"> 
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingrese el texto que desee encriptar o <br> decencriptar.</p>
+            </div>
+            <div class="contenido-copiar">
+                <input type="button" class="btn-copiar" value="Copiar" id="button">
+
+            </div>  
+            <div class="contenido-resultado">
+                <p class="text-resultado"></p>
+
+            </div>
+                
+
+            </div>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
